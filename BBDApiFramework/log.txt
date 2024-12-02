@@ -1,0 +1,77 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.483494,
+        "lng": 33.527362
+    },
+    "accuracy": 50,
+    "name": "Thomas",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Uverturii",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://blabla.com",
+    "language": "Spanish"
+}
+HTTP/1.1 200 OK
+Date: Mon, 02 Dec 2024 13:33:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "8826c2c216a3ca6801e7ee79e3ca2e55",
+    "scope": "APP",
+    "reference": "247efd9a21010c48e1bb0f4209e33023247efd9a21010c48e1bb0f4209e33023",
+    "id": "247efd9a21010c48e1bb0f4209e33023"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "8826c2c216a3ca6801e7ee79e3ca2e55"
+}
+HTTP/1.1 200 OK
+Date: Mon, 02 Dec 2024 13:33:26 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
